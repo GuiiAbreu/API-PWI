@@ -1,0 +1,24 @@
+{
+  "name": "api-pwi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.12",
+    "@types/uuid": "^10.0.0",
+    "express": "^4.19.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "tsx": "^4.16.2",
+    "uuid": "^10.0.0"
+  }
+}
